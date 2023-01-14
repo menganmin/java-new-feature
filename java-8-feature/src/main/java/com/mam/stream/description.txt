@@ -1,0 +1,8 @@
+数据源（source） -> 数据处理 / 转换（intermedia） -> 结果处理（terminal）
+
+Collection.stream (); 从集合获取流。
+Collection.parallelStream (); 从集合获取并行流。
+Arrays.stream (T array) or Stream.of (); 从数组获取流。
+BufferedReader.lines (); 从输入流中获取流。
+IntStream.of () ; 从静态方法中获取流。
+Stream.generate (); 自己生成流
